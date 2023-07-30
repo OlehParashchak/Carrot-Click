@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d5cf809c1588f4fbd2250c98190718, type: 3}
+  m_Name: CoinUpgrade
+  m_EditorClassIdentifier: 
+  Name: Falling Carrot
+  Description: Increase collect reward
+  Sprite: {fileID: 21300000, guid: fdec82108d22db24ab9806204121be1d, type: 3}
+  Levels:
+  - Price: 200
+    EffectiveValue: 50
+  - Price: 700
+    EffectiveValue: 150
+  - Price: 1500
+    EffectiveValue: 225
+  - Price: 2900
+    EffectiveValue: 300
+  - Price: 4200
+    EffectiveValue: 350

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d5cf809c1588f4fbd2250c98190718, type: 3}
+  m_Name: ClickUpgrade
+  m_EditorClassIdentifier: 
+  Name: Upgrade Click
+  Description: Increase click bonus
+  Sprite: {fileID: 21300000, guid: fe1447c9ee10de24d80e0c695dc70cc6, type: 3}
+  Levels:
+  - Price: 100
+    EffectiveValue: 2
+  - Price: 300
+    EffectiveValue: 4
+  - Price: 600
+    EffectiveValue: 6
+  - Price: 1200
+    EffectiveValue: 8
+  - Price: 2100
+    EffectiveValue: 10
